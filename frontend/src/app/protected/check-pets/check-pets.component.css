@@ -1,0 +1,140 @@
+
+.body{
+    background-image: url(/assets/img/imagenes-protected/fondodashboard.png);
+    height: 500vh;
+}
+
+.tittle-1 {
+    font-family: "Fredoka One", cursive;
+    color: #332fd0;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.myCard {
+    width: 210px;
+    height: 310px;
+    background-color: #9254C8;
+    background-image: linear-gradient(0deg, #9254C8 0%, #6462f6 100%);
+    border: none;
+    position: relative;
+    margin: auto;
+    font-family: inherit;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+   }
+   
+   .myCard span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 1.3em;
+   }
+   
+   .myCard .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1em;
+   }
+   
+   .myCard .img {
+    width: 70px;
+    height: 70px;
+    background: #f2f2f2bd;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 20px;
+   }
+   
+   .myCard button {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: white;
+    color: #E15FED;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.4s ease;
+    font-family: 'Poppins', sans-serif;
+   }
+   
+   .myCard button:hover {
+    background: #332FD0;
+    color: white;
+   }
+img{
+    height: 80px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.myButton {
+    padding: 5px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(187, 69, 234);
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-family: fredoka one;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.myButton:hover {
+    background-color: #e15fed;
+    box-shadow: 0px 15px 20px hsl(295, 80%, 65%, 0.4);
+    color: #fff;
+}
+
+label{
+    font-family:  poppins;
+    font-weight: 300;
+    text-transform: lowercase;
+    }
+    
+    label::first-letter{
+    text-transform: uppercase;
+    }
+    
+    
+    .file input{
+    display: none;
+    }
+    
+    .file label{
+    display: block;
+    padding: 8px 0px;
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.8s all;
+    }
+    
+    .file label:hover{
+    background-color: #332FD0;
+    color: white;
+    }

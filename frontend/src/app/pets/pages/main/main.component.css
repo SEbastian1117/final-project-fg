@@ -1,0 +1,100 @@
+/* .btn-container{
+    background-color: #9254C8;
+}
+.myButton{
+    width: 155px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    margin-right: 10px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    color: white;
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.myButton:hover{
+    letter-spacing: 3px;
+}
+.mybutton::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translateX(0);
+} */
+#main{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;   
+}
+#cards{
+    margin-top: 100px;
+}
+#what-we-do{
+    min-height: 400px;
+    margin-top: 210px;
+}
+#team{
+    min-height: 100vh;
+    flex-wrap: wrap;    
+}
+#take-care{
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+#up-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    z-index: 2;
+    color: white;
+}
+#up-btn:hover{
+    background: hsl(0, 0%, 0%, 0.7);
+    background-color: #21D4FD;
+    background-image: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: -moz-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: -o-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: #fff;
+    transition: all 1s;
+    font-size: 10px;
+}
+@media only screen and (max-width: 767px) {
+    #cards{
+      margin-top: 30px;
+    }
+    #what-we-do{
+        margin-top: 70vh;
+    }
+    #take-care{
+        margin-top: 50px;
+    }
+}
+.background{
+    background-image: url('./../../../../assets/img/main-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  @media only screen and (max-width: 767px) {
+    .background{
+    background-image: url('./../../../../assets/img/main-background-sm.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  }

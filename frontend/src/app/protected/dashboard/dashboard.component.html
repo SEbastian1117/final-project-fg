@@ -1,0 +1,100 @@
+
+    <mat-sidenav-container fullscreen class="bg">
+    <mat-sidenav #sidenav mode="push" class="bgl">
+      <mat-toolbar class="bglo">
+        <div class="space"></div>
+        <button mat-icon-button class="btnh" (click)="sidenav.toggle()">
+          <mat-icon class="huella">pets</mat-icon>
+        </button>
+      </mat-toolbar>
+      <mat-nav-list  class="catm">
+       <div class="log"><img class="img-l" src="/assets/img/imagenes-protected/isonewsvg.svg" alt=""></div>
+      </mat-nav-list>
+
+      <mat-nav-list  class="lish"
+      *ngFor="let item of items"
+      [routerLink]="[ item.route]"
+      routerLinkActive="active"
+      >
+        <a mat-list-item (click)="sidenav.toggle()">
+          <mat-icon  mat-list-icon><img class="icondog" src="{{ item.icon }}" alt="icon-perrito"></mat-icon>
+          <span class="spanfont"> {{ item.text }} </span>
+        </a>
+      </mat-nav-list>
+
+    </mat-sidenav>
+    <mat-toolbar class="bgnav">
+      <button mat-icon-button class="btnh text-white" (click)="sidenav.toggle()">
+        <mat-icon>pets</mat-icon>
+      </button>
+      <nav class="navbar navbar-light bg-transparent">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2 inputs" type="search" placeholder="what does your pet need" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="space"></div>
+      <div class="btng">
+        <button routerLink="/dashboard/my-pets" class="btn">
+            go to registration
+        </button>
+    </div>
+      <span  mat-list-item class="bell">
+       <mat-icon mat-list-icon class="text-white"><i class="fa-solid fa-bell darrk"data-bs-toggle="modal" data-bs-target="#exampleModal2"></i></mat-icon>
+     </span>
+     <span  mat-list-item class="bell" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <mat-icon mat-list-icon class="text-white"><i class="fa-solid fa-cart-arrow-down darrk"></i></mat-icon>
+    </span>
+      <span   mat-list-item 
+ (click)="logout()" >
+       <mat-icon mat-list-icon class="text-white logt">logout</mat-icon>
+     </span>
+     <div class="mbs">
+       <span class="logto">logout</span></div>
+    </mat-toolbar>
+    <div class="container">
+    </div>
+    <div class="positionicon"><a class="whatsappLink desktop" target="black" href="https://wa.me/573012778527?text=Me%20interesa%20saber%20de%20jaeger%20pets"><img class="iconi" src="/assets/img/paw.svg" alt=""></a></div>
+  
+  </mat-sidenav-container>
+  <div class="modal fade carshopping" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered carshopping">
+      <div class="modal-content carshopping">
+        <div class="modal-header carshopping">
+          <h5 class="title-modal" id="exampleModalLabel">shopping cart</h5>
+          <button type="button" class="btn-close carshopping" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body carshopping">
+          <h1 class="title-modal">you shopping car is empty</h1>
+          <img  src="/assets/img/Registra a tu mejor amigo (1).png" alt="" width="400px">
+        </div>
+        <div class="modal-footer carshopping">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">buy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade carshopping" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered carshopping">
+      <div class="modal-content carshopping">
+        <div class="modal-header carshopping">
+          <h5 class="title-modal" id="exampleModalLabel">notifications</h5>
+          <button type="button" class="btn-close carshopping" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body carshopping">
+          <h1 class="title-modal">you do not have notifications</h1>
+          <img  src="/assets/img/notifications.png" alt="" width="400px">
+        </div>
+        <div class="modal-footer carshopping">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  

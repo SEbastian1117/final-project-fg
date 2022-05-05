@@ -1,0 +1,47 @@
+<div class="body">
+  <div class="container">
+    <h2 class="text-center fontm">Our Allies</h2>
+    <hr style="background-color: white; border: white solid 2px;">
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12  d-flex justify-content-center  p-1">
+            <div class="myCard">
+                <div class="card-details">
+                  <p class="text-title">Spa: {{ database.vets['colitas-inquietas'].info.name }}</p>
+                  <p class="text-body">Dir: {{ database.vets['colitas-inquietas'].info.dir }}</p>
+                </div>
+                <button class="card-button" routerLink="/dashboard/colitas-inquietas">More info</button>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12  d-flex justify-content-center p-1">
+            <div class="myCard">
+                <div class="card-details">
+                  <p class="text-title">Spa - Garden: {{ database.vets['yorishi-spa'].info.name }}</p>
+                  <p class="text-body">Dir: {{ database.vets['yorishi-spa'].info.dir }}</p>
+                </div>
+                <button class="card-button" routerLink="/dashboard/yorishi-spa">More info</button>                
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12  d-flex justify-content-center p-1">
+            <div class="myCard">
+                <div class="card-details">
+                  <p class="text-title">Vet: {{ database.vets['dr-pascual-pet'].info.name }}</p>
+                  <p class="text-body">Dir: {{ database.vets['dr-pascual-pet'].info.dir }}</p>
+                </div>
+                <button class="card-button" routerLink="/dashboard/dr-pascual">More info</button>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12  d-flex justify-content-center p-1">
+            <div class="myCard">
+                <div class="card-details">
+                  <p class="text-title">Vet: {{ database.vets['pets-emergency'].info.name }}</p>
+                  <p class="text-body">Dir: {{ database.vets['pets-emergency'].info.dir }}</p>
+                </div>
+                <button class="card-button" routerLink="/dashboard/pets-emergency">More info</button>
+              </div>
+        </div>
+    </div>
+</div>
+<div class="btng"><button class="btn mt-5" routerLink="/dashboard/home">back to home</button></div>
+
+
+</div>

@@ -1,0 +1,94 @@
+<div class="background">
+  <app-navbar></app-navbar>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="body">
+      <div class="container w-75 rounded shadow">
+        <div class="row bg aling-items-stretch">
+          <div
+            class="col bgd d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+            
+   <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item imgone bgl active">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="text-log">
+          <p class="text-white">MY HEART IS FULL OF POWS</p></div>
+        </div>
+      </div>
+      <div class="carousel-item imgtwo bgl">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="text-log">
+          <p >I LOVE MY DOG</p></div>
+        </div>
+      </div>
+      <div class="carousel-item imgthree bgl">
+          <div class="carousel-caption d-none d-md-block">
+          <div class="text-log">
+          <p class="font-weight">I LOVE MY CAT</p></div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+            <div class="overlay"></div>
+          </div>
+          <div class="col mdl py-5">
+            <div class="text-end">
+              <img src="/assets/img/logo.png" class="pb-2" width="188px" alt="logo" />
+            </div>
+            <h2 class="text-center mt-1 py-3 text-white">Login</h2>
+            <form [formGroup]="myForm"
+            (ngSubmit)="login()" 
+            autocomplete="off">
+              <div class="m-4 d-grid">
+                <label for="email" class="form-label text-white">Email</label>
+                <input type="email" class="form-input" formControlName="email" />
+              </div>
+              <div class="m-4 d-grid">
+                <label for="email" class="form-label text-white">Password</label>
+                <div class="password">
+                  <input type="checkbox" class="password-toggle" checked>
+               
+                <div class="password-backgroup"></div>
+                <div class="open">
+                  <i class="fa-solid fa-eye password-lock"></i>
+                </div>
+                <div class="closed">
+                  <i class="fa-solid fa-eye-slash password-lock"></i>
+                </div>
+                
+                <input type="text" class="password-input" formControlName="password">
+              </div> 
+            </div>
+              <div class="singup-link">Get your membership <span routerLink='/jaeger-pets/signup'>SignUp now</span></div>
+              <div class="btg">
+                <button [disabled]="myForm.invalid" type="submit" class="btn">
+                  Login now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+</div>  

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+  font-family: 'Fredoka One', cursive;
+}
+li {
+  cursor: pointer;
+}
+.change{
+  background-color: #fff;
+
+}
+button {
+  background-color: rgba(249, 245, 245, 0.588);
+  background-size: 800% 400%;
+  padding: 1em 2em;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+}
+button:hover {
+  animation: gradient 3s infinite;
+  transform: scale(1.05);
+}
+
+button:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.nav-link {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+/* estilo de los enlaces de la barra de navegación al pasar el mouse */
+.link-active:hover {
+  color: #E15FED;
+  font-size: 28px;
+  opacity: 3;
+}
+.active {
+  color: #E15FED;
+  font-size: 28px;
+  opacity: 3;
+}
+.link-active {
+  transition: 0.9s all;
+}
+/* Boton de la barra de navegacion en pantallas mas pequeñas */
+.navbar-toggler {
+  border-color: #d2f6fc;
+  color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("../../../../assets/img/huella.png");
+  height: 80px;
+  width: 60px;
+  filter: hue-rotate(120deg);
+
+}
+#logo {
+  height: 80px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.navm{
+  margin-left: 50px;
+}

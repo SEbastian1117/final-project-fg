@@ -1,0 +1,178 @@
+.position{
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  z-index: 2;
+  background-image:linear-gradient(125deg,#02fff5,#E15FED) ;
+  border-radius: 30px 30px 30px 30px;
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+
+
+.bg{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 0px 0px 30px;
+  position: relative;
+}
+
+h2{
+  font-family:  fredoka one;
+font-weight: 300;
+text-transform: lowercase;
+  font-size: 35px;
+}
+h2::first-letter{
+text-transform: uppercase;
+}
+
+.btn{
+  padding: 15px 55px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+.btn:hover{
+  background-color: #02fff5;
+      box-shadow: 0px 15px 20px  hsl(178, 100%, 50%,0.4);
+      color: #fff;
+}
+
+.btg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+input{
+  background: none;
+      color: black;
+      font-size: 1rem;
+      padding: .6em .3em;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #000000be;
+      font-family: 'Roboto', sans-serif;
+}
+
+input:focus{
+  color: white;
+  font-weight: 400;
+  background-color: #332FD0;
+  border-radius: 20px;
+  border-bottom: none;
+}
+
+.inputp{
+border: none;
+}
+
+.inputp:focus{
+color: white;
+font-weight: 400;
+background-image:none ;
+border-radius: 20px;
+border-bottom: none;
+}
+
+label{
+font-family:  poppins;
+font-weight: 300;
+text-transform: lowercase;
+}
+
+label::first-letter{
+text-transform: uppercase;
+}
+
+
+.file input{
+display: none;
+}
+
+.file label{
+display: block;
+padding: 8px 0px;
+border: solid 1px #ccc;
+border-radius: 30px;
+background-color: white;
+cursor: pointer;
+color: #000;
+font-weight: 600;
+text-align: center;
+transition: 0.8s all;
+}
+
+.file label:hover{
+background-color: #332FD0;
+color: white;
+}
+
+.imgd{
+position: absolute;
+left: 65%;
+top: 80%;
+z-index: 2;
+}
+
+.imgd img{
+width: 350px;
+height: 350px;
+}
+
+
+/* movil */
+@media (max-width: 767px) {
+.destok{
+  display: none;
+}
+.tablet{
+  display: none;
+}
+.position{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    z-index: 2;
+    width: 250px;
+    margin-bottom: 50px;
+}
+}
+
+
+
+/* tablet */
+@media (max-width: 768px) and (min-width: 990px) {
+.destok{
+  display: none;
+}
+.movil{
+  display: none;
+}
+}
+/* escritorio */
+@media (min-width: 991px) {
+.tablet{
+  display: none;
+}
+.movil{
+  display: none;
+}
+}

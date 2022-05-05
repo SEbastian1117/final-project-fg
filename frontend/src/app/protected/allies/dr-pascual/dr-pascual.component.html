@@ -1,0 +1,27 @@
+<div class="body">
+    <div class="container marginl" >
+        <div class="row">
+            <div class="col d-grid justify-content-center">
+                <div class="btng">
+                    <button routerLink="/dashboard/add-service" class="btn-1">Go Back</button>
+                </div>
+                <h2 class="tittle-1">{{ database.name }}</h2>
+                <img src="{{ database.img }}" class="logo container" alt="logo">
+            </div>        
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="col d-flex justify-content-center">
+                    <h6 class="tittle-2">Open: <span>{{ database.open }}</span> </h6>
+                </div>
+                <div class="col d-flex justify-content-center mt-5">
+                    <h4 class="list-title">Services</h4>
+                    <hr>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <button (click)="domi()" style="height: 100px; width: 100px; border-radius: 100px;" class="btn btn-danger text-center">Emergency!</button>                
+            </div>
+        </div>
+    </div>
+</div>
+

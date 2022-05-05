@@ -1,0 +1,261 @@
+.position {
+  position: absolute;
+  left: 12%;
+  top: 25%;
+  z-index: 2;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* From uiverse.io by @alexmaracinaru */
+.card-1 {
+  width: 190px;
+  height: 254px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  overflow: visible;
+}
+
+.card-1 .item {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:hover {
+  transform: scale(0.95);
+  transition: all 0.3s;
+}
+
+.item svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 7px;
+}
+
+.item--1 {
+  background: #c7c7ff;
+}
+
+.item--2 {
+  background: #ffd8be;
+}
+
+.item--3 {
+  background: #a9ecbf;
+}
+
+.item--4 {
+  background: #f3bbe1;
+}
+
+.quantity {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.text--1 {
+  color: rgba(149, 149, 255, 1);
+}
+
+.text--2 {
+  color: rgba(252, 161, 71, 1);
+}
+
+.text--3 {
+  color: rgba(66, 193, 110, 1);
+}
+
+.text--4 {
+  color: rgba(220, 91, 183, 1);
+}
+
+/* From uiverse.io by @satyamchaudharydev */
+.card {
+  --primary-clr: linear-gradient(125deg, #322fd0e6, #e15fed);
+  --dot-clr: white;
+  --play: hsl(195, 74%, 62%);
+  width: 200px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.card {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  display: grid;
+  cursor: pointer;
+  grid-template-rows: 50px 1fr;
+}
+
+.card:hover .img-section {
+  transform: translateY(1em);
+}
+
+.card-desc {
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  top: -1px;
+  display: grid;
+  gap: 10px;
+  background: var(--primary-clr);
+}
+
+.card-time {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.img-section {
+  transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: none;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.card-title {
+  flex: 1;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: fredoka one;
+}
+
+.card-menu {
+  display: flex;
+  gap: 4px;
+  margin-inline: auto;
+}
+
+.card .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--dot-clr);
+}
+
+.card .recent {
+  line-height: 0;
+  font-size: 0.8em;
+}
+
+.mart {
+  margin-top: 25px;
+}
+
+/* From uiverse.io by @alexruix */
+.card-3 {
+  height: 254px;
+  width: 190px;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 1em;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+/*Image*/
+.card-image-1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 30px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url(/assets/img/services/service-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-image-2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 30px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url(/assets/img/services/service-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-image-3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 30px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url(/assets/img/services/service-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-image-4 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 30px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url(/assets/img/services/service-4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Description */
+.card-description-3 {
+  display: flex;
+  position: absolute;
+  gap: 1em;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  height: 70%;
+  bottom: 0;
+  border-radius: 30px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 1rem;
+}
+
+/*Text*/
+.text-title-3 {
+  font-size: 1.4em;
+  font-weight: 700;
+  font-family: fredoka one;
+  color: #9254C8;
+  text-transform: lowercase;
+}
+.text-title-3::first-letter{
+  text-transform: uppercase;
+}
+
+.text-body-3 {
+  font-size: 1em;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+  color: #9254C8;
+  font-weight: bold;
+}
+
+/* Hover states */
+
+.card-3:hover .card-description-3 {
+  transform: translateY(100%);
+}

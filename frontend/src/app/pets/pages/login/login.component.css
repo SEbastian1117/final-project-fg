@@ -1,0 +1,244 @@
+.body{
+  margin-top: 90px;
+  margin-bottom: 200px;
+}
+.bgl{
+  height: 600px;
+  margin-top: 10px;
+}
+
+.bg{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 30px 30px 30px;
+  position: relative;
+}
+.bgd{
+  background-image: linear-gradient(125deg,#332FD0,white);
+  border-radius: 30px 0px 0px 30px;
+}
+
+h2{
+  font-weight: 900;
+  font-size: 35px;
+  font-family:  fredoka one;
+}
+
+
+.mdl{
+  background-image: linear-gradient(125deg,#332FD0,white);
+  border-radius: 0px 30px 30px 0px;
+}
+
+.btn{
+  padding: 15px 55px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.btn:hover{
+  background-color: #332FD0;
+      box-shadow: 0px 15px 20px  #332FD0;
+      color: #fff;
+}
+
+.btg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input{
+  background: none;
+      color: black;
+      font-size: 1rem;
+      padding: .6em .3em;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #000000be;
+      font-family: 'Poppins', sans-serif;
+}
+
+input:focus{
+  color: #332FD0;
+  font-weight: 400;
+  border-radius: 20px;
+  border: solid 1px #9254C8;
+}
+
+
+bg{
+  height: 500px;
+  background-image: linear-gradient(125deg,#332FD0,white);
+  border-radius: 20px 0px 0px 20px;
+  border-right: solid 1px rgba(255, 255, 255, 0.675);
+} 
+
+
+
+.imgone{
+  background-image: url("/assets/img/vet/10.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.imgtwo{
+  background-image: url("/assets/img/vet/11.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.imgthree{
+  background-image: url("/assets/img/vet/3.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 0px 0px 20px;
+} 
+
+
+
+.text-log{
+  background-color: rgba(0, 0, 0, 0.524);
+  border-radius: 40px;
+  font-family: 'Poppins', sans-serif;
+} 
+
+
+
+
+.singup-link span{
+  color: #332FD0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+.singup-link span:hover{
+  text-decoration: underline;
+}
+.singup-link{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+p{
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+} 
+
+.password{
+  background-color: none;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.password-backgroup{
+  background-color: white;
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  border-radius: 5px;
+  top: 0;
+  right: -50%;
+  transition: 0.2s all ease-in-out;
+  font-family: 'Poppins', sans-serif;
+}
+
+.password-toggle{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.toggle-eye{
+  position:absolute;
+  top: 27px;
+  right: 27px;
+  font-size: 22px;
+}
+.open{
+  transition: 0.4s all ease-in-out;
+}
+
+.closed{
+  transition: 0.4s all ease-out;
+}
+
+.password-lock{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  left: 25px;
+}
+
+.password-input{
+  width: 200px;
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 60px;
+  background: none;
+  font-size: 18px;
+  color:rosybrown;
+  outline: none;
+  letter-spacing: 2px;
+  transition: 2 all;
+  -webkit-text-security: none;
+}
+ .password-toggle:checked ~ .password-backgroup{
+   width: 50px;
+   height: 50px;
+   top: 12.5px;
+   right: 12.5px;
+   background: none;
+ }
+
+.password-toggle:checked ~ .password-input{
+  -webkit-text-security:circle;
+  color: #000;
+}
+
+.password-toggle:checked ~ .password-lock{
+  color: white;
+}
+
+.password-toggle:checked ~ .closed{
+  opacity: 0;
+}
+
+.background{
+  background-image: url('/assets/img/fondocorto3.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,249 @@
+.container{
+   margin: 15px;
+}
+.btn{
+   padding: 5px 15px;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: rgb(187, 69, 234);
+   background-color: #fff;
+   border: none;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   font-family:  fredoka one;
+   text-transform: capitalize;
+}
+
+.btn:hover{
+   background-color: #E15FED;
+   box-shadow: 0px 15px 20px  hsl(295, 80%, 65%,0.4);
+   color: #fff;
+}
+
+
+.inputs{
+   width: 250px;
+   height: 50px;
+   border-radius: 30px;
+   font-family: 'Poppins', sans-serif;
+   color: rgb(97, 97, 97);
+}
+
+.inputs:focus{
+   border-color: #E15FED;
+}
+
+.space{
+   flex: 1 1 auto;
+}
+
+.bg{
+   background-image: url(/assets/img/imagenes-protected/fondodashboard.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 1500px;
+}
+
+.bell{
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-bottom: 5px;
+}
+
+.bgl{
+   background-color: #332fd0;
+  background-image: -webkit-linear-gradient(160deg, #332fd0 0%, #9254c8 100%);
+  background-image: -moz-linear-gradient(160deg, #332fd0 0%, #9254c8 100%);
+  background-image: -o-linear-gradient(160deg, #332fd0 0%, #9254c8 100%);
+  background-image: linear-gradient(160deg, #332fd0 0%, #9254c8 100%);
+   border-radius: 0 30px 30px 0;
+}
+
+.bglo{
+   background-color: #332fd0;
+}
+.catm{
+   margin-top: 50px;
+}
+
+.img-l{
+   width: 40%;
+   width: 40%;
+   margin: 0;
+}
+
+.mbs{
+   margin-bottom: 5px;
+   margin-left: 5px;
+   display: flex;
+   justify-content: center;
+   font-family: fredoka one;
+   color: white;
+   font-family: fredoka one;
+   font-weight: 400;
+   font-size: 22px;
+}
+
+.logto{
+   text-transform: lowercase;
+}
+
+.logto::first-letter{
+   text-transform: uppercase;
+}
+.positionicon{
+   position: fixed;
+   margin-left: 93%;
+   margin-top: 29%;
+}
+.iconi{
+   position: absolute;
+   left: 93%;
+   top: 37%;
+   width: 90px;
+}
+.iconi:hover{
+   padding: 5px;
+   border-radius: 20px;
+   width: 70px;
+}
+
+
+.bgnav{
+   background-color: #322fd0;
+background-image: -webkit-linear-gradient(45deg, #332fd0 0%, #e15fed 100%);
+background-image: -moz-linear-gradient(45deg, #332fd0 0%, #e15fed 100%);
+background-image: -o-linear-gradient(45deg, #332fd0 0%, #e15fed 100%);
+background-image: linear-gradient(45deg, #332fd0 0%, #e15fed 100%);
+padding-top:10px;
+padding-bottom: 10px;
+}
+
+.log{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.lish{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: white;
+   font-family: popinngs;
+}
+
+.lish:hover{
+   background-color: #a7b3ff;
+background-image: -webkit-linear-gradient(67deg, #a7b3ff 0%, #02fff5 100%);
+background-image: -moz-linear-gradient(67deg, #a7b3ff 0%, #02fff5 100%);
+background-image: -o-linear-gradient(67deg, #a7b3ff 0%, #02fff5 100%);
+background-image: linear-gradient(67deg, #a7b3ff 0%, #02fff5 100%);
+   transition: 0.2s;
+   border-radius: 0 30px 30px 0;
+}
+
+.spanfont{
+   font-family:  poppins;
+   font-weight: 300;
+   text-transform: lowercase;
+}
+
+.spanfont::first-letter{
+   text-transform: uppercase;
+}
+
+.icondog{
+   width: 70%;
+   height: 70%;
+   margin-bottom: 12px;
+}
+
+.huella{
+   color: white;
+}
+.btnh{
+   background-color: #2b2a8787;
+}
+
+.logt{
+   margin-left: 10px;
+}
+
+
+.carshopping{
+   border-radius: 40px;
+}
+
+.title-modal{
+   font-family: fredoka one;
+   text-align: center;
+   padding-left: 160px;
+   font-size: 20px;
+   font-weight: bold;
+   text-transform: lowercase;
+   color: #9254C8;
+}
+.title-modal::first-letter{
+   text-transform: uppercase;
+}
+.darrk:hover{
+   color: #00fff7;
+   transition: 1s;
+}
+
+/* tablet */
+@media (max-width: 768px) and (min-width: 990px) {
+   .destok{
+     display: none;
+   }
+   .movil{
+     display: none;
+   }
+ }
+ /* escritorio */
+ @media (min-width: 991px) {
+   .tablet{
+     display: none;
+   }
+   .movil{
+     display: none;
+   }
+ }
+
+ /* movil */
+@media (max-width: 767px) {
+   .destok{
+      display: none;
+    }
+    .tablet{
+      display: none;
+    }
+   .inputs{
+      display: none;
+   }
+   .btn{
+      display: none;
+   }
+   .bgnav{
+      width: 100%;
+   }
+   .spanfont{
+      display: none;
+   }
+   .bgl{
+      width:20%;
+   }
+
+   .icondog{
+      width: 40px;
+   }
+   .bg{
+      height: 2000px;
+   }
+}
+   

@@ -1,0 +1,200 @@
+
+  <div class="resolucion">
+    <div class="row">
+      <div class="col">
+        <app-dashboard></app-dashboard>
+      </div>
+      <div class="container col position">
+        <div class="container formr">
+          <div class="text-end">
+            <img src="/assets/img/logo.png" class="pb-2" width="188px" alt="logo" />
+          </div>
+          <h2 class="text-center mt-1 py-3 text-white">Register Pet</h2>
+          <form autocomplete="off"
+          [formGroup]="petForm"
+          (ngSubmit)="createPet()"
+          >
+            <div class="m-4 d-grid">
+              <label for="name" class="form-label text-white">Name</label>
+              <input type="name"  class="form-input" 
+              formControlName="name"  
+              />
+            </div>
+    
+            <div class="m-4 d-grid">
+              <label for="age" class="form-label text-white">Age</label>
+              <input  type="number"
+              formControlName="age" />
+            </div>
+            <div class="m-4 d-grid">
+              <label for="text" class="form-label text-white">Race</label>
+              <input type="text" 
+              class="form-input"
+              formControlName="race" />
+            </div>
+            <div class="m-4 d-grid">
+                <label for="text" class="form-label text-white">Species</label>
+                <input type="text"
+                class="form-input"
+                formControlName="species" />
+              </div>
+              <div class="m-4 d-grid">
+                <div class="file">
+                  <label for="archive">Search Archive</label>
+                  <input type="file"
+                  id="archive"
+                  (change)="file($event)"
+                  formControlName="photo"
+                  >
+                </div>
+              </div>
+            <div class="btg">
+              <button type="submit" class="btn">Register</button>
+            </div>
+            <div class="btg">
+              <button routerLink="/dashboard/check-pets" class="btn">Check my pets</button>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+      <div class="col-md-4 col-md-5">
+      <div class="imgd">
+        <img  src="/assets/img/img-pets/Registra a tu mejor amigo.png" alt="img-dog">
+      </div>
+    </div>
+    </div>
+
+  <div class="tablet">
+    <div class="row">
+      <div class="col">
+        <app-dashboard></app-dashboard>
+      </div>
+      <div class="container col position">
+        <div class="container formr">
+          <div class="text-end">
+            <img src="/assets/img/logo.png" class="pb-2" width="188px" alt="logo" />
+          </div>
+          <h2 class="text-center mt-1 py-3 text-white">Register Pet</h2>
+          <form autocomplete="off"
+          [formGroup]="petForm"
+          (ngSubmit)="createPet()"
+          >
+            <div class="m-4 d-grid">
+              <label for="name" class="form-label text-white">Name</label>
+              <input type="name"  class="form-input" 
+              formControlName="name"  
+              />
+            </div>
+    
+            <div class="m-4 d-grid">
+              <label for="age" class="form-label text-white">Age</label>
+              <input  type="number"
+              formControlName="age" />
+            </div>
+            <div class="m-4 d-grid">
+              <label for="text" class="form-label text-white">Race</label>
+              <input type="text" 
+              class="form-input"
+              formControlName="race" />
+            </div>
+            <div class="m-4 d-grid">
+                <label for="text" class="form-label text-white">Species</label>
+                <input type="text"
+                class="form-input"
+                formControlName="species" />
+              </div>
+              <div class="m-4 d-grid">
+                <div class="file">
+                  <label for="archive">Search Archive</label>
+                  <input type="file"
+                  id="archive"
+                  (change)="file($event)"
+                  formControlName="photo"
+                  >
+                </div>
+              </div>
+            <div class="btg">
+              <button type="submit" class="btn">Register</button>
+            </div>
+            <div class="btg">
+              <button routerLink="/dashboard/check-pets" class="btn">Check my pets</button>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+      <div class="col-md-4 col-md-5">
+      <div class="imgd">
+        <img  src="/assets/img/img-pets/Registra a tu mejor amigo.png" alt="img-dog">
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="movil">
+    <div class="row">
+      <div class="col">
+        <app-dashboard></app-dashboard>
+      </div>
+      <div class="container col position">
+        <div class="container formr">
+          <div class="text-end">
+            <img src="/assets/img/logo.png" class="pb-2" width="188px" alt="logo" />
+          </div>
+          <h2 class="text-center mt-1 py-3 text-white">Register Pet</h2>
+          <form autocomplete="off"
+          [formGroup]="petForm"
+          (ngSubmit)="createPet()"
+          >
+            <div class="m-4 d-grid">
+              <label for="name" class="form-label text-white">Name</label>
+              <input type="name"  class="form-input" 
+              formControlName="name"  
+              />
+            </div>
+    
+            <div class="m-4 d-grid">
+              <label for="age" class="form-label text-white">Age</label>
+              <input  type="number"
+              formControlName="age" />
+            </div>
+            <div class="m-4 d-grid">
+              <label for="text" class="form-label text-white">Breed</label>
+              <input type="text" 
+              class="form-input"
+              formControlName="race" />
+            </div>
+            <div class="m-4 d-grid">
+                <label for="text" class="form-label text-white">Species</label>
+                <input type="text"
+                class="form-input"
+                formControlName="species" />
+              </div>
+              <div class="m-4 d-grid">
+                <div class="file">
+                  <label for="archive">Search Archive</label>
+                  <input type="file"
+                  id="archive"
+                  (change)="file($event)"
+                  formControlName="photo"
+                  >
+                </div>
+              </div>
+            <div class="btg">
+              <button type="submit" class="btn">Register</button>
+            </div>
+            <div class="btg">
+              <button routerLink="/dashboard/check-pets" class="btn">Check my pets</button>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+      <div class="col-md-4 col-md-5">
+      <div class="imgd">
+        <img  src="/assets/img/img-pets/Registra a tu mejor amigo.png" alt="img-dog">
+      </div>
+    </div>
+    </div>
+  </div>
+</div>

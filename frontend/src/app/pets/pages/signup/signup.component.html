@@ -1,0 +1,55 @@
+
+<div class="background">
+  <app-navbar></app-navbar>
+<div class="container-fluid">
+  <div class="container animate__animated animate__fadeIn">
+    <div class="body">
+      <div class="container w-75 rounded shadow">
+        <div class="row aling-items-stretch">
+          <div
+            class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6"
+            style="background-image: url(/assets/img/img-4.jpg)"
+          >
+            <div class="overlay"></div>
+          </div>
+          <div class="col mdl py-5">
+            <div class="text-end">
+              <img src="/assets/img/logo.png" class="pb-2" width="188px" alt="logo" />
+            </div>
+            <h2 class="text-center mt-1 py-3 text-white">Sing Up</h2>
+            <form [formGroup]="myForm" (ngSubmit)="register()">
+              <div class="m-4 d-grid">
+                <label for="name" class="form-label text-white">Name</label>
+                <input type="name" class="form-input" formControlName="name" />
+              </div>
+  
+              <div class="m-4 d-grid">
+                <label for="email" class="form-label text-white">Email</label>
+                <input type="email" class="form-input" formControlName="email" />
+              </div>
+              <div class="m-4 d-grid">
+                <label for="password" class="form-label text-white"
+                  >Password</label
+                >
+                <input
+                  type="text"
+                  class="form-input"
+                  formControlName="password"
+                />
+              </div>
+              <div class="btg">
+                <button [disabled]="myForm.invalid" type="submit" class="btn">
+                  Sing up now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+</div>
+

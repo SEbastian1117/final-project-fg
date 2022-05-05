@@ -1,0 +1,283 @@
+{
+    "vets": {
+        "colitas-inquietas": {
+            "info":{
+                "name": "Colitas Inquietas",
+                "dir": "Calle 8 sur No 37 - 15",
+                "open": "12hs",
+                "img": "./../../../assets/img/allies/colitas-inquietas/logo.gif",
+                "services": {
+                    "spa": {
+                        "corte": {
+                            "price": "20000",
+                            "name": "Cut & Nails",
+                            "img": "./../../../assets/img/allies/colitas-inquietas/corte.png"
+                        },
+                        "corte-baño": {
+                            "price": "35000",
+                            "name": "Court & Bathroom",
+                            "img": "./../../../assets/img/allies/colitas-inquietas/corte-baño.png"
+                        },
+                        "baño": {
+                            "price": "20000",
+                            "name": "Bath and Nails",
+                            "img": "./../../../assets/img/allies/colitas-inquietas/baño.png"
+                        }
+                    },
+                    "supplies": {
+                        "dog": {
+                            "food": {
+                                "monello": {
+                                    "price": "9000",
+                                    "name": "Monello adult small breed",
+                                    "img": "./../../../../assets/img/allies/colitas-inquietas/food/monello-adulto-dog.png"
+                                },
+                                "chunky": {
+                                    "price": "6500",
+                                    "name": "Chunky",
+                                    "img": "./../../../../assets/img/allies/colitas-inquietas/food/chunky-dog.png"
+                                },
+                                "dog-chow": {
+                                    "price": "7100",
+                                    "name": "Dog Chow",
+                                    "img": "./../../../../assets/img/allies/colitas-inquietas/food/dog-chow.png"
+                                }
+                            }
+                        },
+                        "cat": {
+                            "food": {
+                                "monello": {
+                                    "price": "11000",
+                                    "name": "Monello Gato",
+                                    "img": "./../../../../assets/img/allies/colitas-inquietas/food/monello-cat.png"
+                                },
+                                "ohmaigat": {
+                                    "price": "5000",
+                                    "name": "Oh-My-Gat",
+                                    "img": "./../../../../../assets/img/allies/colitas-inquietas/food/oh-mai-gat.png"
+                                },
+                                "whiskas": {
+                                    "price": "9350",
+                                    "name": "whiskas",
+                                    "img": "./../../../../assets/img/allies/colitas-inquietas/food/whiskas.png"
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "yorishi-spa": {
+            "info":{
+                "name": "Yorishi Spa",
+                "dir": "Calle 57b sur # 62 - 92",
+                "open": "12hs",
+                "img": "./../../../../assets/img/allies/yorishi-spa/logo.gif",
+                "services": {
+                    "spa": {
+                        "corte": {
+                            "name": "Cut & Nails",
+                            "price": "15000",
+                            "img": "./../../../../assets/img/allies/yorishi-spa/corte.png"
+                        },
+                        "corte-baño": {
+                            "name": "Court & Bathroom",
+                            "price": "28000",
+                            "img": "./../../../../assets/img/allies/yorishi-spa/corte-baño.png"
+                        },
+                        "baño": {
+                            "name": "Bath & Nails",
+                            "price": "15000",
+                            "img": "./../../../../assets/img/allies/yorishi-spa/baño.png"
+                        },
+                        "baño-antipulgas": {
+                            "name": "Flea Bath",
+                            "price": "40000",
+                            "img": "./../../../../assets/img/allies/yorishi-spa/baño-antipulgas.png"
+                        }
+                    },
+                    "supplies": {
+                        "dog": {
+                            "food": {
+                                "guaumour": {
+                                    "price": "20000",
+                                    "name": "Goaumour",
+                                    "img": "./../../../assets/img/allies/yorishi-spa/food/guaumour.png"
+                                },
+                                "agilitygold": {
+                                    "price": "15000",
+                                    "name": "Agility Gold",
+                                    "img": "./../../../assets/img/allies/yorishi-spa/food/agility-gold.png"
+                                },
+                                "dogourmet": {
+                                    "price": "7300",
+                                    "name": "Dogourmet",
+                                    "img": "./../../../assets/img/allies/yorishi-spa/food/dogourmet.png"
+                                }
+                            }
+                        },
+                        "cat": {
+                            "food": {
+                                "catchow": {
+                                    "price": "7000",
+                                    "name": "Cat Chow",
+                                    "img": "./../../../assets/img/allies/yorishi-spa/food/cat-chow.png"
+                                },
+                                "mirringo": {
+                                    "price": "4500",
+                                    "name": "Mirringo",
+                                    "img": "./../../../assets/img/allies/yorishi-spa/food/mirringo.png"
+                                },
+                                "purina": {
+                                    "price": "10000",
+                                    "name": "Purina Cat",
+                                    "img": "./../../../assets/img/allies/yorishi-spa/food/purina.png"
+                                }
+                            }
+                        }
+                    },
+                    "garden": {
+                        "price": "30000",
+                        "name": "Garden",
+                        "img": "./../../../assets/img/allies/yorishi-spa/garden.png"
+                    }
+                }
+            }
+        },
+        "dr-pascual-pet": {
+            "info": {
+                "name": "Dr. Pascual Pet",
+                "dir": "Cra 4 # 56a - 15",
+                "open": "24hs",
+                "img": "./../../../assets/img/allies/dr-pascual/logo.gif",
+                "services": {
+                    "medicines": {
+                        "engistol": {
+                            "name": "Engistol",
+                            "price": "65000"
+                        },
+                        "cefalexina": {
+                            "name": "Cefalexina",
+                            "price": "5000"
+                        },
+                        "desparasitate-dog": {
+                            "name": "Desparasitante Perro",
+                            "price": "65000"
+                        },
+                        "desparasitate-cat": {
+                            "name": "Desparasitante Gato",
+                            "price": "47000"
+                        },
+                        "kit-parvovirus": {
+                            "name": "Kit Parvovirus",
+                            "price": "40000"
+                        },
+                        "nexgard-pulgas": {
+                            "name": "Nexgard Pulgas",
+                            "price": "38000"
+                        }
+                    },
+                    "clinic": {
+                        "esterilizacion-dog-hembra": {
+                            "name": "Esterilización perro hembra",
+                            "price": "150000"
+                        },
+                        "esterilizacion-dog-macho": {
+                            "name": "Esterilización perro macho",
+                            "price": "100000"
+                        },
+                        "esterilizacion-cat-hembra": {
+                            "name": "Esterilización gato hembra",
+                            "price": "140000"
+                        },
+                        "esterilizacion-cat-macho": {
+                            "name": "Esterilización gato macho",
+                            "price": "90000"
+                        },
+                        "profilaxis": {
+                            "name": "Profilaxis",
+                            "price": "100000"
+                        }
+                    },
+                    "inyectologia": {
+                        "vacuna": "50000"
+                    },
+                    "radiologia-e-imagenes": {
+                        "rx": "60000",
+                        "ecografías": "70000",
+                        "tac": "95000",
+                        "tac-color": "104000"
+                    }
+                }
+            }
+        },
+        "pets-emergency": {
+            "info": {
+                "name": "Pets Emergency",
+                "dir": "calle 13 sur # 6 - 75 este",
+                "open": "24hs",
+                "img": "./../../../assets/img/allies/pets-emergency/logo.gif",
+                "services": {
+                    "medicines": {
+                        "engistol": {
+                            "name": "Engistol",
+                            "price": "68000"
+                        },
+                        "cefalexina": {
+                            "name": "Cefalexina",
+                            "price": "5500"
+                        },
+                        "desparasitate-dog": {
+                            "name": "Desparasitante Perro",
+                            "price": "60000"
+                        },
+                        "desparasitate-cat": {
+                            "name": "Desparasitante Gato",
+                            "price": "43000"
+                        },
+                        "kit-parvovirus": {
+                            "name": "Kit Parvovirus",
+                            "price": "45000"
+                        },
+                        "nexgard-pulgas": {
+                            "name": "Nexgard Pulgas",
+                            "price": "40000"
+                        }
+                    },
+                    "clinic": {
+                        "esterilizacion-dog-hembra": {
+                            "name": "Esterilización perro hembra",
+                            "price": "110000"
+                        },
+                        "esterilizacion-dog-macho": {
+                            "name": "Esterilización perro macho",
+                            "price": "90000"
+                        },
+                        "esterilizacion-cat-hembra": {
+                            "name": "Esterilización gato hembra",
+                            "price": "130000"
+                        },
+                        "esterilizacion-cat-macho": {
+                            "name": "Esterilización gato macho",
+                            "price": "80000"
+                        },
+                        "profilaxis": {
+                            "name": "Profilaxis",
+                            "price": "110000"
+                        }
+                    },
+                    "inyectologia": {
+                        "vacuna": "52000"
+                    },
+                    "radiologia-e-imagenes": {
+                        "rx": "50000",
+                        "ecografías": "75000",
+                        "tac": "90000",
+                        "tac-color": "110000"
+                    }
+                }
+            }
+        }
+    }
+}

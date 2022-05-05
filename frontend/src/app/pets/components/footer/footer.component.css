@@ -1,0 +1,92 @@
+
+footer{
+  background-image: url('/assets/img/footer1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  margin-top: auto;
+  padding-top:80px;
+}
+
+.topd{
+  margin-bottom: 80px;
+}
+.logo{
+  width: 150px;
+  height: 150px;
+    
+}
+
+.text-foot{
+  color: #9254C8;
+}
+  .icon {
+    position: relative;
+    background-color: #9254c8a3;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    background-color: #e60073;
+    box-shadow:  0 0 20px #e60073 ;
+  }
+  
+  .icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+  }
+  
+  .icon:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366 ;
+  }
+  
+  .icon:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+  }
+  
+  .icon i {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  svg circle {
+    stroke-dasharray: 10;
+    transition: all .8s ease-in-out;
+  }
+  
+  .icon:hover circle {
+    stroke-dasharray: 220;
+  }
+
+  h6{
+    font-weight: bold;
+  }
+  /* fin iconos redes sociales */
+  #fire{
+    height: 20px;
+    margin-left: 5px;
+  }
+
+  @media only screen and (max-width: 565px) {
+    #copy{
+      font-size: 80%;
+    }
+  }
+  @media only screen and (max-width: 474px) {
+    #copy{
+      font-size: 60%;
+    }
+  }
